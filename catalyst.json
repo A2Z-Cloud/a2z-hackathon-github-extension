@@ -7,7 +7,6 @@
     "source": "functions"
   },
   "client": {
-    "source": "a2z-hackathon-github-extension",
-    "plugin": "zcatalyst-cli-plugin-react"
+    "source": "client"
   }
 }

@@ -21,7 +21,14 @@
           "idx": 1,
           "id": "20081899216",
           "name": "Development",
-          "type": 3
+          "type": 3,
+          "env_status": "Active",
+          "project_details": {
+            "project_name": "a2z-hackathon-github-extension",
+            "id": "941000000008001",
+            "project_type": "Live"
+          },
+          "is_default": true
         }
       ]
     }
