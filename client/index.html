@@ -14,21 +14,19 @@
         <form>
             <label>Github Access Token:</label>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="button-addon2">
+                <input id="username" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="button-addon2">
             </div> 
             <div class="input-group mb-3">
-                <input type="password" class="form-control" placeholder="Personal Access Token" aria-label="Personal Access Token" aria-describedby="button-addon2">
+                <input id="pat" type="password" class="form-control" placeholder="Personal Access Token" aria-label="Personal Access Token" aria-describedby="button-addon2">
                 <button class="btn btn-outline-secondary" type="button" id="button-addon2">Help</button>
-            </div>              
+                <button class="btn btn-outline-secondary" type="button" id="button-login">Log In</button>
+            </div>   
             <label>Repository:</label>
-            <select class="form-select" aria-label="Default select example">
-                <option selected>Select Repository...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+            <select class="form-select mb-3" id="repo-select" aria-label="Default select example">
+                <option selected class="" id="repo-option">Select Repository...</option>
             </select>
             <label>Code:</label>
-            <div class="input-group">
+            <div class="input-group mb-3">
                 <textarea class="form-control" aria-label="With textarea" disabled readonly></textarea>
             </div>
             <label>Commit Message:</label>
@@ -41,7 +39,7 @@
                 <textarea class="form-control" aria-label="With textarea"></textarea>
             </div>
             <div style="margin-top:10px;">
-            <button type="submit" class="btn btn-primary">Commit</button>
+            <button type="button" id="button-commit" class="btn btn-primary">Commit</button>
             </div>
         </form>
     </div>
@@ -49,6 +47,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>
+    <script src="main.js"></script>
 </body>
 
 </html>

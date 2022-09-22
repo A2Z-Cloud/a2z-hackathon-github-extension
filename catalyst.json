@@ -1,7 +1,6 @@
 {
   "functions": {
     "targets": [
-      "get_repo",
       "get_repository"
     ],
     "ignore": [],

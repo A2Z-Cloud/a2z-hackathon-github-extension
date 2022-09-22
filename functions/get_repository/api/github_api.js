@@ -58,7 +58,6 @@ const fetch_repo = async (username, token) => {
     let response = []
     for (let i = 0; i < body.length; i++) {
         const record = body[i]
-        console.log(record.name)
         response.push({
             "repo_name": record.name,
             "repo_id": record.id
