@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "941000000008001",
+      "name": "a2z-hackathon-github-extension",
+      "domain": {
+        "id": "30006176296",
+        "name": "a2z-hackathon-github-extension-20081899216.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "20081899216",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

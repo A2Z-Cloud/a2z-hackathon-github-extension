@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+venv/
+nenv/
+node_modules/
+.vscode
+*.local
+.env
+.env-prod
+env.json
+env-dev.json
+env-prod.json
+catalyst-debug.log
+.build

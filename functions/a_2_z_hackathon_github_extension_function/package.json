@@ -1,0 +1,9 @@
+{
+	"name": "a_2_z_hackathon_github_extension_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "A2ZCloud",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

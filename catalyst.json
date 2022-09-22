@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "targets": [
+      "a_2_z_hackathon_github_extension_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "a2z-hackathon-github-extension",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}

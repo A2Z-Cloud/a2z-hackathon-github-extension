@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "a_2_z_hackathon_github_extension_function",
+		"stack": "node16",
+		"type": "advancedio"
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}
