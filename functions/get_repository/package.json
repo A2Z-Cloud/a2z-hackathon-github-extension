@@ -1,9 +1,10 @@
 {
-	"name": "a_2_z_hackathon_github_extension_function",
+	"name": "get_repository",
 	"version": "1.0.0",
 	"main": "index.js",
-	"author": "A2ZCloud Lt",
+	"author": "A2ZCloud",
 	"dependencies": {
+		"express": "^4.18.1",
 		"zcatalyst-sdk-node": "latest"
 	}
 }

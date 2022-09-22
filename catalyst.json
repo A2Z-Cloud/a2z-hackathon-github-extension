@@ -1,7 +1,8 @@
 {
   "functions": {
     "targets": [
-      "a_2_z_hackathon_github_extension_function"
+      "get_repo",
+      "get_repository"
     ],
     "ignore": [],
     "source": "functions"

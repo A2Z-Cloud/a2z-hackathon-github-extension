@@ -1,6 +1,6 @@
 {
 	"deployment": {
-		"name": "a_2_z_hackathon_github_extension_function",
+		"name": "get_repository",
 		"stack": "node16",
 		"type": "advancedio"
 	},
