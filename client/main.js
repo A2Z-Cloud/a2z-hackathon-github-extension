@@ -2,7 +2,7 @@ document.getElementById("button-login").addEventListener("click", function () { 
     let username = document.getElementById('username').value
     let pat = document.getElementById('pat').value
     // fetch respository list
-    fetch("http://localhost:3000/server/get_repository?username=" + username + "&pat=" + pat).then((response) => response.json())
+    fetch("https://a2z-hackathon-github-extension-20081899216.development.catalystserverless.eu/server/get_repository?username=" + username + "&pat=" + pat).then((response) => response.json())
     .then((data) => {
        // add each repo to pick list
        for (var i = 0; i < data.length; i++) {
