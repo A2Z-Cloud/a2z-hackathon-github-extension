@@ -1,7 +1,7 @@
 {
     // Comments are accepted in the manifest, even though it is JSON.
     "manifest_version": 3,
-    "name": "Zoho Creator Github",
+    "name": "Zoho Creator Github Extension",
     "description": "An extension designed to commit code from online Zoho IDEs to GitHub using web scapping. Developed by A2Z Cloud.",
     "version": "0.0.1",
     "icons": {
