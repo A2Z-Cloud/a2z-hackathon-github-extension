@@ -1,0 +1,34 @@
+{
+    // Comments are accepted in the manifest, even though it is JSON.
+    "manifest_version": 3,
+    "name": "Zoho Creator Github",
+    "description": "An extension designed to commit code from online Zoho IDEs to GitHub using web scapping. Developed by A2Z Cloud.",
+    "version": "0.0.1",
+    "icons": {
+        "16": "logo/logo.png",
+        "48": "logo/logo.png",
+        "128": "logo/logo.png"
+    },
+    "options_page": "settings/settings.html",
+    "action": {
+        "default_title": "Web Scapper GitHub Extension",
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "cookies"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "content_scripts": [{
+        "js": ["foreground.js"],
+        "matches": ["http://*/*", "https://*/*", "<all_urls>"],
+        "all_frames": true
+    }]
+}
