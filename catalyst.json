@@ -1,7 +1,8 @@
 {
   "functions": {
     "targets": [
-      "get_repository"
+      "get_repository",
+      "access_cache"
     ],
     "ignore": [],
     "source": "functions"

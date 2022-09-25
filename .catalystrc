@@ -10,10 +10,10 @@
   "projects": [
     {
       "idx": 1,
-      "id": "941000000008001",
-      "name": "a2z-hackathon-github-extension",
+      "id": "941000000017006",
+      "name": "A2Z-Hackathon-Github-Extension",
       "domain": {
-        "id": "30006176296",
+        "id": "30006275406",
         "name": "a2z-hackathon-github-extension-20081899216.development"
       },
       "env": [
@@ -21,14 +21,7 @@
           "idx": 1,
           "id": "20081899216",
           "name": "Development",
-          "type": 3,
-          "env_status": "Active",
-          "project_details": {
-            "project_name": "a2z-hackathon-github-extension",
-            "id": "941000000008001",
-            "project_type": "Live"
-          },
-          "is_default": true
+          "type": 3
         }
       ]
     }
