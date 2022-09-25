@@ -23,8 +23,8 @@ const add_option = (repo_name, repo_id) => {
 
 const get_code = () => {
     // get query 
-    const urlParams = new URLSearchParams(window.location.search);
-    const id = urlParams.get('id');
+    const urlParams = new URLSearchParams(window.location.search)
+    const id = urlParams.get('id')
 
     fetch("https://a2z-hackathon-github-extension-20081899216.development.catalystserverless.eu/server/access_cache/read?id=" + id, {
     method: "GET"
@@ -36,4 +36,18 @@ const get_code = () => {
     });
 }
 
-window.onload = get_code;
+const get_file_path = () => {
+    // get query 
+    const urlParams = new URLSearchParams(window.location.search)
+    const file_name = urlParams.get('file_name')
+    file_path_element = document.getElementById("filepath")
+    file_path_element.value = "./" + file_name + ".ds"
+}
+
+
+// get code and file path on load
+window.onload = () => {
+    get_code()
+    get_file_path()
+}
+

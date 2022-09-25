@@ -11,35 +11,46 @@
 
 <body>
     <div class="container" style="margin-top:20px;">
+        <div class="container" style="text-align:center;">
+            <img src="https://a2zcloud.com/wp-content/uploads/2019/07/logo.png" alt="" style="width:15%;height:auto;">
+        </div>
         <form>
             <label>Github Access Token:</label>
             <div class="input-group mb-3">
-                <input id="username" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="button-addon2">
-            </div> 
+                <input id="username" type="text" class="form-control" placeholder="Username" aria-label="Username"
+                    aria-describedby="button-addon2">
+            </div>
             <div class="input-group mb-3">
-                <input id="pat" type="password" class="form-control" placeholder="Personal Access Token" aria-label="Personal Access Token" aria-describedby="button-addon2">
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Help</button>
+                <input id="pat" type="password" class="form-control" placeholder="Personal Access Token"
+                    aria-label="Personal Access Token" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="help"
+                    onclick=" window.open('https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token','_blank')">Help</button>
                 <button class="btn btn-outline-secondary" type="button" id="button-login">Log In</button>
-            </div>   
+            </div>
             <label>Repository:</label>
             <select class="form-select mb-3" id="repo-select" aria-label="Default select example">
                 <option selected class="" id="repo-option">Select Repository...</option>
             </select>
             <label>Code:</label>
             <div class="input-group mb-3">
-                <textarea id="code" class="form-control" aria-label="With textarea" disabled readonly></textarea>
+                <textarea id="code" class="form-control" aria-label="With textarea" rows="4" disabled
+                    readonly></textarea>
+            </div>
+            <label>File Path:</label>
+            <div class="input-group mb-3">
+                <input id="filepath" type="text" class="form-control" aria-describedby="basic-addon1">
             </div>
             <label>Commit Message:</label>
             <div class="input-group mb-3">
-                <input type="text" class="form-control"
-                    aria-describedby="basic-addon1">
+                <input type="text" class="form-control" aria-describedby="basic-addon1">
             </div>
             <label>Commit Description:</label>
             <div class="input-group">
                 <textarea class="form-control" aria-label="With textarea"></textarea>
             </div>
             <div style="margin-top:10px;">
-            <button type="button" id="button-commit" class="btn btn-primary">Commit</button>
+                <button type="button" id="button-commit" class="btn btn-primary"
+                    style="margin-bottom:10px;">Commit</button>
             </div>
         </form>
     </div>
